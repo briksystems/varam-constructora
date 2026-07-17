@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VARAM Constructora | Construimos proyectos, creamos futuro</title>
+<meta name="description" content="VARAM Constructora: más de 10 años desarrollando proyectos residenciales en Colombia. Conoce Villa Toscana, Barlovento y Vientum.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=Fraunces:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/logo-varam.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER / NAV — flotante y transparente sobre el hero
+     ========================================================= -->
+<header class="header header--floating" id="header">
+  <div class="header__inner">
+    <nav class="nav" id="nav">
+      <ul class="nav__links">
+        <li><a href="#inicio" class="is-active">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#calidad">Calidad</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="proyectos.html" target="_blank" rel="noopener" class="btn btn-outline">Cotiza tu proyecto</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<section class="hero" id="inicio">
+  <h1 class="sr-only">VARAM Constructora — Construimos proyectos, creamos futuro</h1>
+  <div class="hero__content">
+    <div class="hero__actions">
+      <a href="proyectos.html" target="_blank" rel="noopener" class="btn btn-primary">
+        Ver proyectos
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+  <a href="#nosotros" class="hero__scroll" style="position:absolute; right:24px; bottom:28px; z-index:2;">
+    Desliza para descubrir
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </a>
+</section>
+
+<!-- =========================================================
+     TRUST BAR
+     ========================================================= -->
+<section class="trust-bar">
+  <div class="container trust-bar__grid">
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l6-4 6 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/></svg>
+      <div>
+        <h3>Experiencia</h3>
+        <p>Más de 10 años desarrollando proyectos de construcción con excelencia.</p>
+      </div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.97-3.05 8.5-7 9-3.95-.5-7-4.03-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+      <div>
+        <h3>Calidad</h3>
+        <p>Trabajamos con altos estándares y los mejores materiales.</p>
+      </div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c.6-3.4 3.2-5.5 6.5-5.5s5.9 2.1 6.5 5.5"/><circle cx="17.5" cy="9" r="2.4"/><path d="M16 14.3c2.4.4 4 2.1 4.5 4.9"/></svg>
+      <div>
+        <h3>Compromiso</h3>
+        <p>Cumplimos lo que prometemos, en tiempo y forma.</p>
+      </div>
+    </div>
+    <div class="trust-item reveal">
+      <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s7-4.5 7-11a7 7 0 10-14 0c0 6.5 7 11 7 11z"/><path d="M12 8v6M9 11h6"/></svg>
+      <div>
+        <h3>Sostenibilidad</h3>
+        <p>Construimos pensando en el medio ambiente y el futuro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     NOSOTROS
+     ========================================================= -->
+<section class="nosotros" id="nosotros">
+  <div class="container nosotros__grid">
+    <div class="nosotros__text reveal">
+      <span class="eyebrow">Nosotros</span>
+      <h2 style="font-size:clamp(2rem,4vw,2.75rem); color:var(--navy-900); margin-bottom:20px;">Transformamos ideas en espacios que perduran</h2>
+      <p>En VARAM Constructora convertimos terrenos en comunidades: proyectos residenciales pensados para durar generaciones.</p>
+      <p>Acompañamos cada proyecto de principio a fin —diseño, planeación, construcción e interventoría— con un equipo propio de ingenieros y arquitectos que responde por cada detalle de la obra.</p>
+      <a href="proyectos.html" target="_blank" rel="noopener" class="btn btn-outline-navy" style="margin-top:10px;">Ver proyectos</a>
+    </div>
+
+    <div class="nosotros__stats reveal">
+      <div class="nosotros__stat">
+        <div class="num">10<span>+</span></div>
+        <p>Años de experiencia</p>
+      </div>
+      <div class="nosotros__stat">
+        <div class="num">3</div>
+        <p>Proyectos activos</p>
+      </div>
+      <div class="nosotros__stat">
+        <div class="num">100<span>%</span></div>
+        <p>Supervisión propia</p>
+      </div>
+      <div class="nosotros__stat">
+        <div class="num">A<span>+</span></div>
+        <p>Estándar de materiales</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SERVICIOS
+     ========================================================= -->
+<section class="servicios" id="servicios">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;">Lo que hacemos</span>
+      <h2>Nuestros servicios</h2>
+      <p>Un equipo, cuatro frentes de trabajo: desde la idea hasta la entrega final de tu proyecto.</p>
+    </div>
+
+    <div class="servicios__grid">
+      <div class="service-card reveal">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6M4 21h16"/></svg>
+        </div>
+        <h3>Construcción</h3>
+        <p>Desarrollamos proyectos residenciales de principio a fin.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20l8-14H4l8 14z"/><path d="M9 10l6 6M15 10l-6 6"/></svg>
+        </div>
+        <h3>Diseño y planeación</h3>
+        <p>Equipo experto en diseño arquitectónico y planeación técnica de obras.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5l7 4v11L4 16V5z"/><path d="M11 9l9-4v11l-9 4"/></svg>
+        </div>
+        <h3>Interventoría</h3>
+        <p>Supervisión técnica para garantizar calidad, seguridad y cumplimiento.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 10-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0 005.4-5.4z"/></svg>
+        </div>
+        <h3>Remodelaciones</h3>
+        <p>Transformamos y renovamos espacios existentes con soluciones integrales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CATÁLOGO — carrusel circular infinito de logos
+     ========================================================= -->
+<section class="catalogo" id="catalogo">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;">Catálogo</span>
+      <h2>Nuestro catálogo de proyectos</h2>
+      <p>Tres desarrollos, tres formas distintas de vivir.</p>
+    </div>
+
+    <div class="logo-carousel reveal" id="logoCarousel">
+      <div class="logo-carousel__track">
+        <div class="logo-slide" data-index="0" data-name="Villa Toscana" data-tag="Residencial · Conjunto cerrado">
+          <img src="images/logo-villa-toscana.png" alt="Logo Villa Toscana">
+        </div>
+        <div class="logo-slide" data-index="1" data-name="Barlovento" data-tag="Residencial · Torres en altura">
+          <img src="images/logo-barlovento.png" alt="Logo Barlovento">
+        </div>
+        <div class="logo-slide" data-index="2" data-name="Vientum" data-tag="Residencial · Diseño contemporáneo">
+          <img src="images/logo-vientum.png" alt="Logo Vientum">
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-carousel__caption">
+      <h3 id="carouselName">Villa Toscana</h3>
+      <p id="carouselTag">Residencial · Conjunto cerrado</p>
+    </div>
+
+    <div class="carousel__dots" id="carouselDots">
+      <button data-slide="0" class="is-active" aria-label="Ver Villa Toscana"></button>
+      <button data-slide="1" aria-label="Ver Barlovento"></button>
+      <button data-slide="2" aria-label="Ver Vientum"></button>
+    </div>
+
+    <div style="text-align:center; margin-top:46px;" class="reveal">
+      <a href="proyectos.html" target="_blank" rel="noopener" class="btn btn-outline-navy">Ver catálogo completo</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CALIDAD
+     ========================================================= -->
+<section class="calidad" id="calidad">
+  <div class="container calidad__grid">
+    <div class="reveal">
+      <span class="eyebrow">Nuestro estándar</span>
+      <h2 style="font-size:clamp(2rem,4vw,2.75rem); margin-bottom:16px;">Calidad en cada etapa de la obra</h2>
+      <p>Desde el primer plano hasta la entrega de llaves, cada decisión se toma pensando en la calidad y la seguridad de quienes van a habitar el proyecto.</p>
+    </div>
+
+    <div class="calidad__list reveal">
+      <div class="calidad__item">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
+        <div>
+          <h4>Materiales certificados</h4>
+          <p>Trabajamos con proveedores y materiales que cumplen la normativa de construcción vigente.</p>
+        </div>
+      </div>
+      <div class="calidad__item">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
+        <div>
+          <h4>Supervisión técnica constante</h4>
+          <p>Nuestro equipo de interventoría acompaña la obra en cada fase del proceso constructivo.</p>
+        </div>
+      </div>
+      <div class="calidad__item">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
+        <div>
+          <h4>Cumplimiento de cronogramas</h4>
+          <p>Planeamos cada proyecto con tiempos realistas y hacemos seguimiento continuo a su avance.</p>
+        </div>
+      </div>
+      <div class="calidad__item">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
+        <div>
+          <h4>Acompañamiento postventa</h4>
+          <p>Seguimos disponibles después de la entrega para resolver cualquier inquietud sobre tu proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="footer" id="contacto">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="images/logo-varam.png" alt="VARAM Constructora">
+        <p>Construimos más que estructuras: construimos confianza y relaciones a largo plazo.</p>
+        <p class="footer__whatsapp">Escríbenos: <a href="https://wa.me/573116824142?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20de%20VARAM%20Constructora%20y%20quiero%20informaci%C3%B3n.%20%C2%BFQu%C3%A9%20proyecto%20te%20interesa%20conocer%3F%0A1.%20Villa%20Toscana%0A2.%20Barlovento%0A3.%20Vientum" target="_blank" rel="noopener">+57 311 682 4142</a></p>
+        <div class="footer__social" style="margin-top:18px;">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M13.5 21v-7.5H16l.4-3H13.5V8.4c0-.87.24-1.46 1.5-1.46H16.5V4.35c-.26-.03-1.16-.1-2.2-.1-2.18 0-3.67 1.33-3.67 3.77v2.1H8.2v3h2.43V21h2.87z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6.9 8.4H3.6V20h3.3V8.4zM5.2 3.5a1.9 1.9 0 100 3.8 1.9 1.9 0 000-3.8zM20.4 20h-3.3v-6.2c0-1.5-.5-2.5-1.8-2.5-1 0-1.6.7-1.9 1.3-.1.2-.1.6-.1.9V20H10s.1-10.5 0-11.6h3.3v1.6c.4-.7 1.2-1.7 3-1.7 2.2 0 3.9 1.4 3.9 4.5V20z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="proyectos.html" target="_blank" rel="noopener">Proyectos</a></li>
+          <li><a href="#calidad">Calidad</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__services">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Construcción</a></li>
+          <li><a href="#servicios">Diseño y planeación</a></li>
+          <li><a href="#servicios">Interventoría</a></li>
+          <li><a href="#servicios">Remodelaciones</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 VARAM Constructora. Todos los derechos reservados.</p>
+      <p>Desarrollado por <a href="#">Brik Systems</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp: SOLO el círculo verde, tamaño fijo -->
+<a href="https://wa.me/573116824142?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20de%20VARAM%20Constructora%20y%20quiero%20informaci%C3%B3n.%20%C2%BFQu%C3%A9%20proyecto%20te%20interesa%20conocer%3F%0A1.%20Villa%20Toscana%0A2.%20Barlovento%0A3.%20Vientum"
+   class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm5.6 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.2-.8-2.7-1.1-4.4-3.9-4.6-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.3c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.2-.3.3-.1.6.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.6-.1l.6-.7c.2-.3.4-.2.7-.1.3.1 1.6.8 1.9.9.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
